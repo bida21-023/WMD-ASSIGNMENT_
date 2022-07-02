@@ -159,10 +159,13 @@ nav .nav-items li a:hover{
     display: flex;
     scroll-behavior: smooth;
 }
-
-.poster-container::-webkit-scrollbar{
-    display: none;
+@media only screen and (max-width: 1132px){
+    .poster-container {
+        overflow-x: auto;
+    }
 }
+
+
 
 .poster-card{
     flex: 0 0 auto;

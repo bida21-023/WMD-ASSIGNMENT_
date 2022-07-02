@@ -162,6 +162,8 @@ nav .nav-items li a:hover{
 @media only screen and (max-width: 1132px){
     .poster-container {
         overflow-x: auto;
+	overflow-y: hidden;
+	    
     }
 }
 
